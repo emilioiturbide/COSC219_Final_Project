@@ -6,14 +6,14 @@
             "request": "launch",
             "type": "chrome",
             "url": "http://localhost:8080",
-            "webRoot": "${/workspaces/COSC219_Final_Project}"
+            "webRoot": "${/workspaces/COSC219_Final_Project/}"
         },
 
         {
             "type": "node-terminal",
             "name": "JavaScript Debug Terminal",
             "request": "launch",
-            "cwd": "${workspaceFolder}"
+            "cwd": "${/workspaces/COSC219_Final_Project/}"
         }
     ]
 }
